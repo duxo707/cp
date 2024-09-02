@@ -2,7 +2,7 @@
 using namespace std;
 
 const int n = 1e7;
-vector<int> sieve(n + 1, 1);
+vector<bool> sieve(n + 1, true);
 // bitset<n + 1> sieve; // for smaller n
 // sieve.set();
 void sieve_build() {
